@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+header {
+    z-index: 1;
+    position: fixed;
+    background-color: #FFF;
+}
+.cadastro {
+    border-radius: 20px;
+    border: grey solid 1px;
+}
+.logo span {
+    font-family: 'Lobster', cursive;
+    color: #FF385C ;
+    font-size: 20px;
+}
+.logo i {
+    color: #FF385C ;
+    font-size: 2em;
+    margin-right: 5px;
+}
+.logoSearch i{
+    color: #FF385C ;
+}
+.title {
+    background : -webkit-linear-gradient( left, rgb(148, 21, 76) 9.38%, rgb(228, 29, 92) 88.54%);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;
+}
+.titleMain {
+    padding: 1em 0 0.5em 1em;
+    font-weight: normal;
+    font-size: 3em;
+}
+.formInput {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-right: 0;
+}
+.divInput {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 1em 0 1em 0;
+    box-shadow: rgb(187, 187, 187) 1px 2px 1px;
+}
+.form-control {
+    padding: 0;
+}
+.spanInput {
+    font-size: 10px;
+    font-weight: bold;
+}
+.inputCheck {
+/*
+width: 100%;
+*/
+border: none;
+border-right: 1px solid grey;
+}
+.divh1 {
+    margin-top: 5em;
+}
+#cards {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+.col-md-4 {
+    
+    padding: 0;
+}
+.containerDiv {
+    width: 95%;
+    margin: 0 auto;
+}
+.card {
+    width: 97%;
+    border-radius: 20px;
+    margin-top: 1em;
+}
+.card-img-top {
+    height: 15rem;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px ;
+}
+.card-body {
+    padding: 1em;
+}
+footer {
+    padding: 1em;
+    background-color: #dedede;
+}
+footer p{
+    margin: 0;
+    background-color: transparent;
+    color: #FF385C;
+    font-weight: bold;
+}
+footer i {
+    background-color: transparent;
+    text-decoration: none;
+    color: #FF385C;
+    margin-left: 2em;
+}
